@@ -1,0 +1,21 @@
+.header {
+    background: #000;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.nav-menu a {
+    text-decoration: none;
+    color: white;
+    margin-left: 30px;
+    transition: .4s ease-out;
+}
+
+.nav-menu a:hover {
+    color: orange;
+    transition: .4s ease-in;
+}
