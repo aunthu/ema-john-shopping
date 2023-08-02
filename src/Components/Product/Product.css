@@ -12,18 +12,22 @@
     margin: 7px;
     border-radius: 8px;
 }
-.product-info{
- margin-left: 14px;  
+
+.product-info {
+    margin-left: 14px;
 }
-.product-info p{
- margin-top: 5px;   
+
+.product-info p {
+    margin-top: 5px;
 }
-.product-name{
+
+.product-name {
     font-size: 21px;
     margin-top: 0px;
     margin-bottom: 0px;
 }
-.btn-cart{
+
+.btn-cart {
     position: absolute;
     bottom: 0;
     width: 100%;
@@ -31,4 +35,8 @@
     border-radius: 0 0 8px 8px;
     border: 1px solid slategray;
     padding: 10px;
+}
+
+.btn-cart:hover {
+    background-color: orange;
 }
